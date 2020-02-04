@@ -5133,7 +5133,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'current_pdf.pdf',
+    value: 'AnnalizPhotographyWelcome.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
