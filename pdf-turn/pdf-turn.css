@@ -32,13 +32,24 @@
     z-index: 9999;
 }
 
+/*.directions a.prev-button{*/
+/*    left: 0;*/
+/*    background: #f7f6f6 url(pics/alt-prev.png) no-repeat center center;*/
+/*}*/
 .directions a.prev-button{
     left: 0;
-    background: #f7f6f6 url(pics/alt-prev.png) no-repeat center center;
+    background: Transparent url(alt-prev.png) no-repeat center center;
+    background-size: 50% 50% ;
 }
 
 
+/*.directions a.next-button{*/
+/*    right: 0;*/
+/*    background: #f7f6f6 url(pics/alt-next.png) no-repeat center center;*/
+/*}*/
+
 .directions a.next-button{
     right: 0;
-    background: #f7f6f6 url(pics/alt-next.png) no-repeat center center;
+    background: Transparent url(alt-next.png) no-repeat center center;
+    background-size: 50% 50% ;
 }
