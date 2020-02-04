@@ -407,6 +407,36 @@ See https://github.com/adobe-type-tools/cmap-resources
 		b.click()
 	});
 	</script>
+<!-- added by samuel nwokenkwo -->
+	<div class="directions">
+<!--
+<a href="#" class="prev-button" onclick="document.getElementById('previous').click();document.getElementById('previous').click()"></a>
+<a href="#" class="next-button " onclick="document.getElementById('next').click();document.getElementById('next').click()"></a></div>
+-->
+<a href="#" class="prev-button" onclick="movePage('previous')"></a>
+<a href="#" class="next-button " onclick="movePage('next')"></a></div>
+	<script>
+	function movePage(btn_id){
+		const pageInput = document.getElementById('pageNumber');
+		if (parseInt(pageInput.value) % 2 === 0){
+			if (btn_id === "previous"){
+				document.getElementById(btn_id).click()
+			}else if (btn_id === "next"){
+				document.getElementById(btn_id).click();document.getElementById(btn_id).click()
+			}
+		}else{
+			if (btn_id === "previous"){
+				document.getElementById(btn_id).click();document.getElementById(btn_id).click()
+			}else if (btn_id === "next"){
+				document.getElementById(btn_id).click()
+			}
+		}
+			
+
+
+		
+	}
+	</script>
   </body>
 </html>
 
